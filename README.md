@@ -38,10 +38,10 @@ runesWon = (yourRunesWinningBets / totalRunesWinningBets * losersAdjustedRunes) 
 PRED Return Rate:
 ```
 // PRED won from your PRED winning votes
-predWon = (yourBotWinningBets / totalBotWinningBets * losersTotal) + yourBotWinningBets
+predWon = (yourPredWinningBets / totalPredWinningBets * losersTotal) + yourPredWinningBets
 
 // RUNES reward won from PRED winning votes
-predRunesWon = yourBotWinningBets / totalBotWinningBets * losersRunesReward
+predRunesWon = yourPredWinningBets / totalPredWinningBets * losersRunesReward
 ```
 
 Total Return:
